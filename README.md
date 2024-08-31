@@ -33,4 +33,4 @@ Do following steps from Dmoney API collection
 
 ## Video output
 
-[Restassured.webm](https://github.com/user-attachments/assets/8431671a-2dc6-4089-8bbc-a9518452ebb9)
+[RestAssured.webm](https://github.com/user-attachments/assets/b17603aa-094a-40fe-b1bd-95d008daf58d)
