@@ -1,0 +1,26 @@
+[
+  {
+    "password": "jcn6ri9cyy",
+    "role": "Customer",
+    "name": "Dong Paucek",
+    "nid": "22766633",
+    "phone_number": "01917666100",
+    "email": "test7666@test.com"
+  },
+  {
+    "password": "58is934j4s9o",
+    "role": "Customer",
+    "name": "Maragret Deckow",
+    "nid": "22303333",
+    "phone_number": "01913033100",
+    "email": "test3033@test.com"
+  },
+  {
+    "password": "3od912xqeldnrit",
+    "role": "Agent",
+    "name": "Lowell Hyatt",
+    "nid": "22774633",
+    "phone_number": "01917746100",
+    "email": "test7746@test.com"
+  }
+]
