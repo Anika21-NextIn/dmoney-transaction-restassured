@@ -71,7 +71,7 @@ public class UserTestRunner {
         Assert.assertTrue(message.contains("User created"));
     }
 
-    @Test(priority = 4, description = "Create a agent")
+    @Test(priority = 4, description = "Create an agent")
     public void createNewAgent() throws IOException, ConfigurationException, ParseException {
         User user = new User();
         int randomId = Utils.generateRandomId(1000, 9999);
@@ -96,4 +96,31 @@ public class UserTestRunner {
         String message = res.get("message");
         Assert.assertTrue(message.contains("User created"));
     }
+
+//    @Test(priority = 4, description = "Create a merchant")
+//    public void createNewMerchant() throws IOException, ConfigurationException, ParseException {
+//        User user = new User();
+//        int randomId = Utils.generateRandomId(1000, 9999);
+//        Faker faker = new Faker();
+//        String name = faker.name().fullName();
+//        String email = "test" + randomId + "@test.com";
+//        String password = faker.internet().password();
+//        String phone_number = "0191" + randomId + "100";
+//        String nid = "22"+randomId+"33";
+//        String role = "Merchant";
+//        JsonPath res = user.createUser(name, email, password, phone_number, nid, role);
+//
+//        UserModel model = new UserModel();
+//        model.setName(name);
+//        model.setEmail(email);
+//        model.setPassword(password);
+//        model.setPhone_number(phone_number);
+//        model.setNid(nid);
+//        model.setRole(role);
+//        Utils.saveInfo(model);
+//
+//        String message = res.get("message");
+//        Assert.assertTrue(message.contains("User created"));
+//    }
+//
 }

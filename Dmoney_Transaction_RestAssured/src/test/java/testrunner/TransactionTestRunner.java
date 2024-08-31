@@ -26,6 +26,7 @@ public class TransactionTestRunner {
 
 
         String message = res.get("message");
+        //System.out.println(res);
 
         Assert.assertTrue(message.contains("Deposit successful"));
     }
@@ -86,12 +87,12 @@ public class TransactionTestRunner {
         JSONArray userArray = Utils.readJSONArray();
         JSONObject userObj1 = (JSONObject) userArray.get(userArray.size()-2);
         String from_account = userObj1.get("phone_number").toString();
-        String to_account = "01686606905";
+        String to_account = "01913651100";
         double amount = 100;
 
         JsonPath res = transaction.payment(from_account, to_account, amount);
         String message = res.get("message");
-        //System.out.println(message);
+        System.out.println(message);
         Assert.assertTrue(message.contains("Payment successful"));
     }
 
