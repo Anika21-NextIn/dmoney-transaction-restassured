@@ -40,3 +40,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+build
+gradle
+allure-results
+allure-report
+.idea
